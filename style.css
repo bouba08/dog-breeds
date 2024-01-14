@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    color: black;
+    background-image: url("https://img.freepik.com/free-vector/paw-prints-trail-across-screen_78370-866.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703721600&semt=ais");
+}
+
+.dog-button{
+    border: none;
+    border-radius: 9999px;
+    padding: 4px 4px;
+    margin-top: 8px;
+}
+
+.dog-input{
+    font-size: 20;
+    padding: 4px 4px;
+}
+
+.breed-img{
+    width: 64%;
+    height: 360px;
+    border-radius: 4px;
+    border: 2px black solid;
+}
+
+#breed-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.breed-description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    width: 64%;
+    border: 2px black solid;
+    border-radius: 4px;
+    background-color: white;
+}
+
+span{
+    line-height: 1.5;
+    font-size: 24px;
+    font-weight: 600;
+}
